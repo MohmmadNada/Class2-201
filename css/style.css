@@ -1,15 +1,31 @@
 
-header {
-    text-align: center;
-    background-color: rgb(20, 2, 2)
-    color: blanchedalmond ;
-}
-a {
+  header {
+      text-align: center;
+
+      color: rgb(26, 21, 15) ;
+  }
+  a {
     color: hotpink;
-    text-decoration: none;
+
   }
 
-  li {
+  #navBar {
+
     display: inline;
     margin: 100px;
+}
+
+
+ol {
+  list-style-position: inside;
+  list-style-type: lower-greek;
+}
+
+h4 {
+  text-align: center;
+}
+.Topten{
+  text-align: center;
+  border: 20px;
+  border-color: black;
 }

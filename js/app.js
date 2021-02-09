@@ -1,77 +1,130 @@
 'use strict';
 
-/*This file fore lab2 in 8.2.2021*/
+/*This file for lab2 in 8.2.2021*/
+/*This file updated  to lab3 in 9.2.2021*/
 
 let UserName = prompt('What is your name?');
-//console.log(UserName);
+console.log(UserName);
 alert('Welcome ' + UserName + " let's make some fun!!!");
 
-let Q1 = prompt('did you think the arabic language is difficult?');
+let Q1 = prompt('did you think  I am arabic man?');
 Q1 = Q1.toUpperCase();
-
+let score = 0;
 if (Q1 == "YES" || Q1 == "Y") {
 
-    alert('Of course, It is easy ');
+    alert('Of course, I am  ');
+    score++ ;
 }
 else if (Q1 == "NO" || Q1 == "Y") {
-    alert("It is so easy");
+    alert("I am ");
 }
-//console.log(Q1);
+console.log(Q1);
 
-let Weather = prompt("do you think the weather is hot in everest?");
+let Q2 = prompt("Am I from Jordan?");
 
-Weather = Weather.toUpperCase();
+Q2 = Q2.toUpperCase();
 
-if (Weather == "YES" || Weather == "Y") {
-    alert('incorrect, it is cold');
+if (Q2 == "YES" || Q2 == "Y") {
+    alert('correct');
+    score++ ;
 }
-else if (Weather == "NO" || Weather == "N") {
-    alert("Of course, It is so cold ");
+else if (Q2 == "NO" || Q2 == "N") {
+    alert("I am from Jordan  ");
 }
-console.log(Weather);
+console.log(Q2);
 
 
 
-let wordcup = prompt("do you think Brazil is the most country have worldcup?");
+let Q3 = prompt("is Zarqa the capital of jordan?");
 
-wordcup = wordcup.toUpperCase();
-if (wordcup == "YES" || wordcup == "Y") {
-    alert('incorrect, it is ');
+Q3 = Q3.toUpperCase();
+if (Q3 == "YES" || Q3 == "Y") {
+    alert('No, it is amman  ');
 }
-else if (wordcup == "NO" || wordcup == "N") {
-    alert("No, it have ");
+else if (Q3 == "NO" || Q3 == "N") {
+    alert("It's Amman ");
+    score++ ;
 }
-console.log(wordcup);
+console.log(Q3);
 
 
 
-let ChampionsLeague = prompt("do you think Real madrid is the most club have Champion's League?");
+let Q4 = prompt("do you think Real madrid is the most club have Champion's League?");
 
-ChampionsLeague = ChampionsLeague.toUpperCase();
-if (ChampionsLeague == "YES" || ChampionsLeague == "Y") {
-    alert('incorrect, it is ');
+Q4 = Q4.toUpperCase();
+if (Q4 == "YES" || Q4 == "Y") {
+    alert('correct, it is ');
+    score++ ;
 }
-else if (ChampionsLeague == "NO" || ChampionsLeague == "N") {
-    alert("No, it have ");
+else if (Q4 == "NO" || Q4 == "N") {
+    alert("incorrect; it have ");
+  
 }
-console.log(ChampionsLeague);
+console.log(Q4);
+
+ 
 
 
+let Q5 = prompt("is the petra beautiful?");
 
+Q5 = Q5.toUpperCase();
 
-let petra = prompt("is the petra beautiful?");
-
-petra = petra.toUpperCase();
-
-if (petra == "YES" || petra == "Y") {
-    alert('incorrect, it is ');
+if (Q5 == "YES" || Q5 == "Y") {
+    alert('correct, Magic place ');
+    score++ ;
 }
-else if (petra == "NO" || petra == "N") {
-    alert("No, it have ");
+else if (Q5 == "NO" || Q5 == "N") {
+    alert("No, it is Magic place ");
 }
-console.log(petra);
+console.log(Q5);
+
+let Q6 = prompt("Guss when I Graduate? ", "input year like 2019");
+
+let i = 0;
+
+for (i = 0; i < 5; i++) {
+    if (Q6 == 2019) {
+        alert("correct answer");
+        score++;
+        break;
+    }
+    else if (Q6 >= 2022 || Q6 <= 2015) {
+        alert("your answer so far ");
 
 
-alert("thank you " + UserName + " for your time")
+    }
+    else {
+        alert("your answer is close ");
+
+    }
+    Q6 = prompt("Guss when I Graduate? ", "input year like 2019");
+    
+}
+    alert("the correct answer is 2019 ");
 
 
+let populationInJordan = [9, 10, 11];
+alert("you have 6 attemps ");
+let Q7 = prompt("how mony pepole live in Jordan ", "the number consider in million");
+
+ i = 0;
+
+for (i = 0; i < 6; i++) {
+    if (Q7 == populationInJordan[0] || Q7 == populationInJordan[1] || Q7 == populationInJordan[2]) {
+        alert("correct answer");
+        score++ ;
+        break;
+    }
+
+    else if (true) {
+        alert("your answer is not correct ");
+        Q7 = prompt("how mony pepole live in Jordan?");
+    }
+}
+
+    alert("the correct answers are 9 , 10 or 11 ");
+    alert("the Total score is "+ score + " from 7");
+    console.log(score)
+
+
+alert("thank you " + UserName + " for your time"); 
