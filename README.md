@@ -10,6 +10,6 @@ modify some questions to make some fun with user , use array and loops
 show score for user 
 </p>
 
-#### Student : Mohammad Nada
+Mohammed Nada is a navigator and Hala yassen is driver:[repo](https://github.com/MohmmadNada/Class2-201)
 
 
