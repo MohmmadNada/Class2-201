@@ -1,44 +1,4 @@
-
-  * {
-    font-family: 'Lobster', cursive;
-
+body { 
+  color: white;
+  background-color: black; 
   }
-  header {
-      text-align: center;
-background-color: cornflowerblue;
-      color: rgb(26, 21, 15) ;
-  }
-  a {
-    color: hotpink;
-
-  }
-  h2 {
-padding-left:10px ;
-}
-  #navBar {
-
-    display: inline;
-    margin: 100px;
-}
-
-ol {
-  list-style-position: inside;
-  list-style-type: lower-greek;
-}
-
-h4 {
-  text-align: center;
-}
-.Topten{
-  text-align: center;
-  border: 20px;
-background-color: darkorchid;
-}
-
-#experience {
-  background-color:blue;
-  padding: 10px;
-}
-* {
-  padding: 20px;
-}
